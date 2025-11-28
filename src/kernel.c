@@ -23,8 +23,8 @@ void kprint(const char *s){
 }
 
 void kernel_main(void){
-    kprint("Welcome to Lightning OS (x86_64)!");
+    kprint("Welcome to Lightning OS (x86_32)!");
     // simple loop so kernel doesn't exit
-    kprint(" Line 2 example");
+    kprint(" - Author: Ishmael K. Kwayisi");
     for (;;) {__asm__ volatile ("hlt"); }
 }
